@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "roles",
+  "info": {
+    "name": "Roles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "access_level": {
+      "type": "enumeration",
+      "enum": [
+        "home",
+        "users",
+        "roles",
+        "reports"
+      ]
+    }
+  }
+}
