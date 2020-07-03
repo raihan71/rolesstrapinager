@@ -23,10 +23,10 @@ npm install
 ```sh
 yarn install
 ```
-<p>Once you have installed, create database using PostgreSQL, you can see the configuration in<strong>./config/database.js</strong> and change all value with your environment.
+<p>Once you have installed, create database using PostgreSQL or MySQL, you can see the configuration in<strong>./config/database.js</strong> and change all value with your environment.
 
 ## How to Run Develop?
-<p>After you finished install the project you start run development :
+<p>After you finished install the project you start run development, but make sure your MySQL or PostgreSql machine is running already :
 
 ```sh
 strapi develop
